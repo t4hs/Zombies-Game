@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{10E359BA-790A-3AE2-0795-B041FCB66676}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerMovement.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MouseTurn.cs" Line="25" Column="9" />
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="16" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Zombies" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="playerMovement.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="afa65dfc-a4ce-4263-a784-c1f92cf78455" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
