@@ -12,6 +12,7 @@ public class playerMovement : MonoBehaviour
     public float jumpHeight = 2f;
     public float gravity = -9.81f;
     public float groundDistance = 0.4f;
+    public int health = default;
     public LayerMask groundMask;
     Vector3 velocity;
     bool onFloor;
