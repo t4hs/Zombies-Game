@@ -4,15 +4,43 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Player player;
 
     // Update is called once per frame
+
+    private static PlayerManager instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
+
     void Update()
     {
-        
+        CheckPlayerState();
+    }
+
+    public void CheckPlayerState()
+    {
+        if(player.GetHealth() == 0)
+        {
+            player.Die();
+            return;
+        }
+
+        if(!player.HasLives())
+        {
+            GameManager.GetInstance().ChangeState(GameState.GameOver);
+        }
+    }
+
+    public void SpawnPlayer()
+    {
+        player.Display();
+        player.Init();
+    }
+    public static PlayerManager GetInstance()
+    {
+        return instance;
     }
 }
